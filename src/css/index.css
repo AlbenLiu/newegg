@@ -1,0 +1,518 @@
+.content{width: 1200px;margin: 0 auto}
+body{margin: 0 auto;
+    text-align: center;
+    font-family: tahoma,\5b8b\4f53!important;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #484848;
+    cursor: default;
+}
+.topbar{
+    background: #f1f1f1;
+    border-bottom: 1px solid #e2e2e2;
+    height: 24px;
+}
+.phone,.growBuy{
+    color: #666666;
+    font-family: tahoma,\5b8b\4f53;
+    font-size: 13px;
+    line-height: 24px;
+}
+.phone{
+    float: left;
+    padding-left: 16px;
+    background:url(../img/topbar_sprite150428.png)  no-repeat;
+    background-position: 0px 3px;
+}
+.growBuy{
+    float: left;
+    padding-left: 20px;
+    background:url(../img/topbar_sprite150428.png) no-repeat;
+    background-position: 0px -131px;
+}
+.topbarMid{
+    margin-right: 10px;
+    float: right;
+}
+.topbarMid a{
+    display: inline-block;
+    color: #666;
+    font-family: tahoma,\5b8b\4f53;
+    font-size: 13px;
+    line-height: 24px;
+    margin:0;
+}
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+.topbarMid span:nth-child(2){
+    margin: 0 8px;
+    line-height: 24px;
+    font-family: tahoma,\5b8b\4f53;
+    color: #484848;
+}
+.topbarMid span:nth-child(4){
+    color: #484848;
+    font-size: 13px;
+    margin-left: 10px;
+    font-family: tahoma,\5b8b\4f53;
+}
+.topbarMid>a:nth-child(5),.topbarMid>a:nth-child(6),.topbarMid>a:nth-child(8){
+    padding:0px 25px 0px 11px;
+    margin-left: -1px;
+    
+}
+.topbar s{
+    /* position: absolute;
+    right: 12px;
+    top: 11px; */
+    display: inline-block;
+    width: 6px;
+    height: 4px;
+    background-position: left -27px;
+    overflow: hidden;
+    background: url(../img/sprite_v140425.png) no-repeat;
+}
+
+/* ..........header................... */
+
+.header>.content{
+    position: relative;
+    height: 86px;
+}
+.logo{
+    display: block;
+    height: 65px;
+    width: 318px;
+    float: left;
+    position: absolute;
+    left: 4px;
+    top: 11px;
+    background: url(../img/logocn_1213.png) no-repeat;
+}
+.search{
+    /* background: #FF6600; */
+    height: 34px;
+    position: absolute;
+    top:18px;
+    left: 368px;
+}
+.searchInput{
+    height: 30px;
+    border: 2px solid #f60;
+    float: left;
+    line-height: 30px;
+    width: 337px;
+}
+#topSearch{
+    width: 330px;
+    border: 0;
+    background: none;
+    text-indent: 6px;
+    height: 27px;
+    color: #b7b7b7;
+    
+}
+.searchButton{
+    color: #fff;
+    width: 98px;
+    height: 34px;
+    background: #f60;
+    color: #fff;
+    text-indent: 0;
+    font: bolder 14px/34px simsun;
+    text-align: center;
+    float: left;
+    border-radius: 0 3px 3px 0;
+}
+.hot{
+    text-align: left;
+    position: absolute;
+    left: 368px;
+    top: 48px;
+    overflow: hidden;
+    clear: both;
+    line-height: 29px;
+    color: #767676;
+    margin-top: 4px;
+}
+.hot a{
+    margin: 0 6px;
+    color: #767676;
+    line-height: 29px;
+    text-align: left;
+}
+.hot b{
+    font-weight: normal;
+    display: inline-block;
+    margin: 0 8px
+}
+
+/* ........wraper................. */
+.wraper{
+    height: 40px;
+    background: #10286C;
+    margin-bottom: 10px;
+}
+.wraper>.content{position: relative;}
+.menu{
+    width: 179px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/sprite_v140425.png) no-repeat 120px -1252px #F60;
+    /* background: #ff6600; */
+    color: #ffffff;
+    font: 14px/42px microsoft yahei;
+    line-height: 40px;
+}
+.wraperNav{
+    position: absolute;
+    left: 189px;
+    top: 0;
+    height: 40px;
+}
+.wraperNav>li{
+    padding: 0 20px;
+    color: #ffffff;
+    float: left;
+    font: 14px/40px microsoft yahei;
+    line-height: 40px;
+}
+.wraperRight{
+    position: absolute;
+    right: 0;
+    top: 0;  
+    height: 40px;
+    background: #f60;
+    width: 234px;
+}
+
+
+/* ...................main........................ */
+.main{
+    height: 3609px;
+    background: olivedrab;
+}
+
+/* ........nav...... */
+.nav{
+    position: relative;
+    height: 478px;
+}
+.mainMenu{
+    width: 179px;
+    height: 447px;
+    background: goldenrod;
+    position: absolute;
+    top: -10px;
+}
+.mainNav{
+    width: 771px;
+    height: 245px;
+    background: #666;
+    position: absolute;
+    left: 190px;
+    overflow: hidden;
+}
+.mainNavBox{
+    width: 5000px;
+    background: orchid;
+    position: absolute;
+}
+.mainNavImg{
+    float: left;
+    width: 771px;
+}
+.righNav1{
+    width:226px;
+    height:241px;
+    position: absolute;
+    right: 0px;
+    background: #767676;
+    border: 2px solid #f1d4b3;
+
+}
+.righNav2{
+    width:230px;
+    height:218px;
+    position: absolute;
+    right: 0px;
+    top: 255px;
+    background: #f1f1f1;
+}
+.timeNav{
+    width: 771px;
+    height: 203px;
+    position: absolute;
+    top: 255px;
+    left: 190px;
+    background: #484848
+}
+
+/* ......guide1..... */
+.guide1{
+    height: 287px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.guide1>p{
+    width: 960px;
+    height: 48px;
+
+    background: #666
+}
+.guide1Nav{
+    width: 960px;
+    height: 239px;
+    background: #e2e2e2;
+}
+.guide1News{
+    margin-top: 10px;
+    padding: 10px 0;
+    background: #b7b7b7;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 229.69px;
+    height: 122px;    
+}
+.guide1leftNav{
+    width: 230px;
+    height: 123px;
+    position: absolute;
+    right: 0px;
+    top: 149px;
+    background: #484848;
+}
+/* .......guide2................ */
+.guide2{
+    height: 325px;
+    margin-bottom: 20px;
+}
+.guide2>p{
+    /* padding-top: 7px; */
+    height: 48px;
+    background: #b7b7b7
+}
+.guide2Nav{
+    height: 277px;
+    background: grey;
+}
+
+/* ...................guide3.................. */
+.guide3{
+    height: 290px;
+}
+.guide3Nav{
+    width: 960px;
+    height: 290px;
+    background: #484848;
+    float: left;
+}
+.guide3leftNav{
+    width: 240px;
+    height: 290px;
+    float: right;
+    background: #666666;
+}
+
+/* ................show.................. */
+.show{
+    height: 2104px;
+    background: #F60;
+    margin-bottom: 20px;
+}
+
+/* ..............bottomBox.................... */
+.bottomBox{
+    height: 65.38px;
+    background: #484848;
+}
+
+/* ....................footer.......................... */
+.footer{
+    height: 685px;
+    /* background: #767676 */
+}
+
+/* ............footer2................ */
+.footer2{
+    height: 115px;
+}
+.footer2>div{
+    float: left;
+    margin-top: 10px;
+}
+.footer2left,.footer2center{
+    width: 350px;
+    height: 73px;
+    background-image: url(../img/infobook_qrcode_v1.png);
+    background-repeat: no-repeat;
+    background-position-y: -130px;
+}
+.footer2center{
+    background-position-y: -50px;
+}
+.footer2left>p,.footer2center>p{
+    margin-left: 76px;
+    font-size: 14px;
+    color: #484848;
+    font-weight: bold;
+    text-align: left;
+}
+.footer2left>div,.footer2center>div{
+    padding-top: 14px;
+    margin-left: 76px;
+}
+.footer2left>div>p,.footer2center>div>p{
+    text-align: left;
+}
+.footer2right{
+    width: 350px;
+}
+.footer2right>div:nth-child(1){
+    background-image: url(../img/infobook_qrcode_v1.png);
+    background-repeat: no-repeat;
+}
+.footer2rightInfo>div:nth-child(1){
+    margin-left: 54px;
+    font-size: 14px;
+    color: #484848;
+    font-weight: bold;
+    text-align: left;
+}
+.footer2rightInfo>div:nth-child(2){
+    padding-top: 2px;
+    margin-left: 54px;
+    text-align: left;
+}
+.footer2rightInfo>div:nth-child(2)>a{
+    font-family: Simsun;
+    color: #666;   
+}
+.footer2rightInfo>div:nth-child(2)>span{
+    padding-left: 8px;
+}
+.footer2rightInfo>div:nth-child(2)>a:nth-child(3){
+    margin-left: 18px;
+}
+.footer2rightInput{
+    width: 350px;
+}
+.footer2rightInput>input{
+    height: 24px;
+    width: 200px;
+    float: left;
+    padding: 4px 5px 3px;
+    margin-right: -1px;
+    border: 1px solid #d8d8d8;
+    background-color: #f3f3f3;
+    color: #b7b7b7;
+}
+.footer2rightInput>a{
+    background-color: #f7661f;
+    border: 1px solid #f7661f;
+    padding: 0 19px;
+    font-weight: bolder;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    vertical-align: top;
+    margin-left: 5px;
+    float: left;
+    
+}
+}
+
+
+/* ................footer3......... */
+.footer3{
+    font-size: 0;
+    padding: 80px 0 30px;
+
+}
+.item{  
+    font-size: 0;
+    line-height: 0; 
+    /* margin: 0 3px 10px 2px; */
+}
+.item>li{
+    display: inline-block;
+    overflow: hidden;
+    height: 45px;
+    background-image: url(../img/certi20150925.png);
+    margin: 0 3px 10px 2px;
+}
+.item>li:nth-child(1){
+    background-position-y:  -514px;
+    width: 40px;    
+}
+.item>li:nth-child(2){
+    width: 123px;    
+}
+.item>li:nth-child(3){
+    background-position-y:  -92px;
+    width: 116px;    
+}
+.item>li:nth-child(4){
+    background-position-y:  -276px;
+    width: 130px;
+    position: relative;
+}
+.item>li:nth-child(4)>span{
+    position: absolute;
+    font-size: 12px;
+    text-indent: 0px;
+    line-height: normal;
+    bottom: 4px;
+    left: 41px;
+    color: #001b75;
+    font-family: serif;
+}
+.item>li:nth-child(5){
+    background-position-y:  -326px;
+    width: 127px;    
+}
+.item>li:nth-child(6){
+    background-position-y:  -376px;
+    width: 106px;    
+}
+.item>li:nth-child(7){
+    background-position-y:  -421px;
+    width: 270px;    
+}
+.footer3>p{
+    font-size: 12px;
+    padding: 0 0 10px;
+}
+.footer3>p:nth-child(2)>a{
+    margin-left: 5px;
+    color: #484848
+}
+.footer3>p:nth-child(3)>span{
+margin: 0 2px;
+}
+/* ........footer4......... */
+.footerBottom{
+    width:100%;
+    height:156.67px ;
+    line-height: 24px;
+    background-color: #f1f1f1;
+    color: #666;
+}
+.footerBottom>div{
+    padding: 20px 0px 20px;
+    width: 965px;
+    text-align: left
+}
+.footerBottom>div p:nth-child(1){
+    text-align: center;
+}
+
