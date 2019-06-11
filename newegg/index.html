@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/css/base.css">
     <link rel="stylesheet" href="./src/css/index.css">
+    <script src="./js/lib/jquery-3.1.1.js"></script>
+    <script src="./js/UI.js"></script>
 </head>
 <body>
 <div class="box">
@@ -88,7 +90,31 @@
                         <li><img src="./src/img/rn12.jpg" alt=""></li>
                     </ul>
                 </div>
-                <div class="timeNav"></div>
+                <div class="timeNav">
+                    <div>
+                        <span>限时抢购</span>
+                        <div>
+                            <span>剩余时间：</span>
+                            <div class="timeLimit">
+                                <span class="hour">11</span>
+                                <span>:</span>
+                                <span class="min">11</span>
+                                <span>:</span>
+                                <span class="sec">11</span>
+                            </div>
+                        </div>
+                        <a href="">更多抢购商品</a>
+                    </div>
+                    <div class="timeNavDiv">
+                        <div class="timeNavBox">
+                            <!-- <li class="timeNavLi">
+                                    <p><a href=""><img src="./src/img/timeNav1.jpg" alt=""></a></p>
+                                    <p><a href="">荣耀Magic2 全网通高配版 8GB+128GB 渐变红</a></p>
+                                    <p> ¥3299.00</p>
+                                </li> -->
+                        </div>
+                    </div>
+                </div>
                 <div class="righNav2"><img src="./src/img/rn2.jpg" alt=""></div>
             </div>
             <div class="guide1">
@@ -130,10 +156,63 @@
             </div>
             <div class="guide2">
                 <p>好评热品<span>热门好评商品，不要错过哦</span></p>
-                <div class="guide2Nav"></div>
+                <div class="guide2Nav">
+                    <div class="big">
+                        <div class="bigdiv">
+                        <div>
+                            <a href="" class="bigimg"><img src="./src/img/guide2Nav1.jpg" alt=""></a>
+                        </div>
+                        <div class="bigcontent">
+                            <div class="bigheader">
+                                <span>推荐度100%</span>
+                                <a href="">Nuforce BHP2无线消噪耳机蓝牙降噪头戴式耳机蓝牙耳机迷你小巧钛金灰</a>
+                            </div>
+                            <p class="bighotcontent">Nuforce BHP2 评测第一次见到Nuforce 的耳机是在洛杉矶的一家数码店，就位于星光大道上，具体的名字忘记了，就是记得店里很安静，当时Nuforce 的耳机和森海塞尔、SONY的耳机放在一块，老板也不招呼人，直接拿起来各种试听，居然效果还不错。没想到，时隔多年，这...</p>
+                            <div class="bighotperson">
+                                <a href="">[7]</a>
+                                <div>
+                                    <span>sunxiaolong750</span>
+                                    <span class="personimg"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="smalldiv">
+                            <p>Nuforce BHP2无线消噪耳机蓝牙降噪头戴式耳机蓝牙耳机迷你小巧钛金灰</p>
+                            <p>推荐度100%</p>
+                            <p>7人已评论</p>
+                            <img src="./src/img/guide2Nav1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="guide3">
-                <div class="guide3Nav"></div>
+                <div class="guide3Nav">
+                    <div class="tab">
+                        <a href="" class="white">您也许感兴趣</a>
+                        <a href="" class="grey">新品发布</a>
+                        <a href="" class="grey">发烧好评</a>
+                        <a href="" class="grey">狠惠配</a>
+                    </div>
+                    <div class="tabc">
+                        <!-- <ul class="prolist">
+                            <li class="prolistLi">
+                                <a href="" class="prolistLiImg"><img src="./src/img/prolist1.jpg" alt=""></a>
+                                <a href="">FUJIFILM 富士 instax mini 8 小黄人 拍立得 一次成像相机</a>
+                                <span>¥699.00</span>
+                            </li>
+                            <li class="prolistLi">
+                                    <a href="" class="prolistLiImg"><img src="./src/img/prolist1.jpg" alt=""></a>
+                                    <a href="">FUJIFILM 富士 instax mini 8 小黄人 拍立得 一次成像相机</a>
+                                    <span>¥699.00</span>
+                                </li>
+                        </ul> -->
+                        <ul class="prolist"></ul>
+                        <ul class="prolist"></ul>
+                        <ul class="prolist"></ul>
+                        <ul class="prolist"></ul>
+                    </div>
+                </div>
                 <div class="guide3leftNav">
                     <div class="guide3leftNavBox">
                         <a href=""><img src="./src/img/guide3leftNav1.jpg" alt=""></a>
@@ -283,10 +362,8 @@
                     </div>
             </div>
         </div>
-    </div>
-    
-    
-
+    </div>        
 </div>
+
 </body>
 </html>
